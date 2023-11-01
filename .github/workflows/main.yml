@@ -21,7 +21,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.10  # Replace 'x' with the desired Python version
+        python-version: 3.9
 
     - name: Run checkin
       run: python3 hostloc_auto_get_points.py
