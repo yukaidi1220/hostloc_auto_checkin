@@ -23,6 +23,8 @@ jobs:
       with:
         python-version: 3.9
 
+    - name: Install dependencies
+      run: pip install requests
     - name: Run checkin
       run: python3 hostloc_auto_get_points.py
 
