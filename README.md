@@ -1,1 +1,1 @@
-# hostloc_auto_checkin
+#主机自动签入
